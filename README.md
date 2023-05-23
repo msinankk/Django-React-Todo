@@ -15,5 +15,5 @@ cd frontend
 ```bash
 npm start
 ```
-5- Now open your browser, go to <a href="http://localhost:3000">http://localhost:3000`</a><br>
+5- Now open your browser, go to <a href="http://localhost:3000">http://localhost:3000</a><br>
 6- Enjoy!!😉<br>
