@@ -6,8 +6,14 @@ Rest api project using django rest-framework and react.
 2- Run 
 ```bash
 python manage.py runserver 8000
-```.<br>
-3- Open new terminal again, navigate to frontend  `cd frontend`<br>
-4- Run `npm start`<br>
-5- Now open your browser, go to `htttp://localhost:3000`<br>
+```
+3- Open new terminal again, navigate to frontend  
+```bash
+cd frontend
+```
+4- Run 
+```bash
+npm start
+```
+5- Now open your browser, go to <a href="http://localhost:3000">http://localhost:3000`</a><br>
 6- Enjoy!!😉<br>
