@@ -16,9 +16,11 @@ class Todo(models.Model):
     title = models.CharField(max_length=20)
     description = models.TextField()
     completed = models.BooleanField()
+    is_active = models.BooleanField(default=True)
+    objects = models.Manager()
 
     def __str__(self) -> str:
-        return self.todo
+        return f"{self.title}"
 
     class Meta:
         """

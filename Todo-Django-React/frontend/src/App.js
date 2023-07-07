@@ -8,13 +8,13 @@ import { useState,useEffect } from 'react'
 function App() {
   
   var [todo,setTodo] = useState([{}])
+  console.log(todo);
   useEffect(() => {
     // Update the document title using the browser API
     fetch('http://127.0.0.1:8000/todos/')
     .then((response) => response.json())
     .then((todos) => {
       setTodo(todos)
-      console.log(todos);
     });
   },[]);
   
@@ -25,6 +25,7 @@ function App() {
       title:title,
       description:desc,
       completed:false,
+      is_active:true,
     }
     setTodo([newTodo,...todo])
 
