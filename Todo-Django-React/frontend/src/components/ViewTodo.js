@@ -79,12 +79,12 @@ function ViewTodo(props) {
           >
             <div>
               <h5 
-              style={{outline:'none',}}
+              className="edit-content"
                contentEditable="true"
                onBlur={(e) => updateTitle(e,todo.id)}
                >{todo.title}</h5>
               <p
-              style={{outline:'none',width:'300px'}}
+              className="edit-content"
               contentEditable="true"
               onBlur={(e) => updateDesc(e,todo.id)}>{todo.description}</p>
             </div>
